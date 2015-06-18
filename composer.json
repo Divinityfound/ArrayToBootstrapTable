@@ -1,6 +1,6 @@
 {
     "name": "divinityfound/arraytobootstraptable",
-    "description": "Returns keys after passing credentials.",
+    "description": "Makes it easier to convert arrays to bootstrap tables.",
     "authors": [
         {
             "name": "Jacob Mathison",
