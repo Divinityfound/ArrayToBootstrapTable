@@ -21,6 +21,11 @@
 			return $this;
 		}
 
+		public function addClass($value) {
+			$this->classes .= ' '.$value;
+			return $this;
+		}
+
 		public function buildTable() {
 			$this->table = '<table class="'.$this->classes.'"><thead><tr>%s</tr></thead><tbody>%s</tbody></table>';
 			$content = array(0 => '', 1 => '');
